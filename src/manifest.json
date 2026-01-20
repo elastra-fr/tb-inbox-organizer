@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "tb-inbox-organizer",
+  "description": "Multi-account inbox cleaner and organizer for Thunderbird",
+  "version": "0.1.0",
+
+  "applications": {
+    "gecko": {
+      "id": "tb-inbox-organizer@local",
+      "strict_min_version": "115.0"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "accountsRead",
+    "messagesRead"
+  ],
+
+  "icons": {
+    "48": "icons/icon.svg"
+  }
+}
