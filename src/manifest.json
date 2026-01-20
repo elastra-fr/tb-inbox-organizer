@@ -16,9 +16,20 @@
     "type": "module"
   },
 
+  "commands": {
+    "open-unread": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      },
+      "description": "Ouvrir les emails non lus"
+    }
+  },
+
   "permissions": [
     "accountsRead",
-    "messagesRead"
+    "messagesRead",
+    "tabs",
+    "menus"
   ],
 
   "icons": {
