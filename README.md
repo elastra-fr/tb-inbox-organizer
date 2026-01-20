@@ -3,10 +3,17 @@
 Multi-account inbox cleaner and organizer for Thunderbird.
 
 ## Status
-Early development
+Early development - POC stage. Not yet published.
 
 ## Compatibility
 - Thunderbird 115+
+
+## Intended features
+- Multi-account support
+- Unread visibility on all inboxes 
+- Identifies important emails based on user-defined rules
+- Identifies unfollowed opportunities
+- Group and count similar emails easy cleanup
 
 ## Development
 See `docs/development.md`
