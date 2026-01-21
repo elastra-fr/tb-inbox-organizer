@@ -3,6 +3,8 @@
   "name": "tb-inbox-organizer",
   "description": "Multi-account inbox cleaner and organizer for Thunderbird",
   "version": "0.1.0",
+  "author": "Emmanuel LASTRA DE NATIAS <emmanuel@eldn-dev.com>",
+  "homepage_url": "https://eldn-dev.com",
 
   "browser_specific_settings": {
     "gecko": {
@@ -16,20 +18,9 @@
     "type": "module"
   },
 
-  "commands": {
-    "open-unread": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+U"
-      },
-      "description": "Ouvrir les emails non lus"
-    }
-  },
-
   "permissions": [
     "accountsRead",
-    "messagesRead",
-    "tabs",
-    "menus"
+    "messagesRead"
   ],
 
   "icons": {

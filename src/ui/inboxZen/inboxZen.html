@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emails Non Lus</title>
-    <link rel="stylesheet" href="unread.css">
+    <title>Inbox Organizer</title>
+    <link rel="stylesheet" href="inboxZen.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Emails Non Lus</h1>
-            <span class="count">12</span>
-        </header>
-        <main>
-            <div class="messages-list">
+    <div class="toolbar">
+                 <h1>Inbox Organizer</h1>
+        <button id="btn-refresh">Refresh</button>
+        <button id="btn-mark-read">Mark as Read</button>
+    </div>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <h2>Mailboxes / Folders</h2>
+            <ul>
+                <li>Inbox</li>
+                <li>Important</li>
+                <li>Finances</li>
+            </ul>
+        </aside>
+
+        <section class="center">
+   
+            <main class="messages-list">
                 <div class="message-item">
                     <div class="message-header">
                         <span class="message-from">John Doe</span>
@@ -25,7 +37,7 @@
                         <span class="folder-badge">Inbox</span>
                     </div>
                 </div>
-                
+
                 <div class="message-item">
                     <div class="message-header">
                         <span class="message-from">Alice Martin</span>
@@ -49,9 +61,16 @@
                         <span class="folder-badge">Finances</span>
                     </div>
                 </div>
+            </main>
+        </section>
+
+        <aside class="preview">
+            <h2>Message Preview</h2>
+            <div class="preview-content">
+                <p>Select a message to see the preview here.</p>
             </div>
-        </main>
+        </aside>
     </div>
-    <script src="unread.js" type="module"></script>
+    <script src="inboxZen.js" type="module"></script>
 </body>
 </html>

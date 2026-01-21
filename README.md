@@ -10,7 +10,7 @@ Early development - POC stage. Not yet published.
 
 ## Intended features
 - Multi-account support
-- Unread visibility on all inboxes 
+- InboxZen visibility on all inboxes 
 - Identifies important emails based on user-defined rules
 - Identifies unfollowed opportunities
 - Group and count similar emails easy cleanup
