@@ -1,8 +1,8 @@
-console.log("InboxZen page loaded");
+//console.log("InboxZen page loaded");
 
 // Minimal DOM hooks for future behaviour
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Page prête");
+    //console.log("Page prête");
 
     // Placeholder: attach a click handler to message items to show preview
     document.querySelectorAll('.message-item').forEach(item => {
