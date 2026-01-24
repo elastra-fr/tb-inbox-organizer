@@ -47,14 +47,18 @@ listAccounts().then(accounts => {
     let html = '<h2>Inboxes</h2><ul class="account-list">';
     accounts.forEach(account => {
 
-if (account.type !== 'local') {
         
-        html += `<li class="account-item"><div class="account-header"><h3><strong>${account.name} <span class="account-type">${account.type}</span></strong></h3></div><ul>`;
+
+if (account.type !== 'local') {
+
+    
+        html += `<li class="account-item"><div class="account-header"><h3><strong>${account.name} <span class="unread-count">${account.unreadCount}</span></h3><span class="account-type">${account.type}</span></strong></div><ul>`;
         account.folders.forEach(folder => {
             html += `<li>${folder.name} - ${folder.path} (${folder.type}) - Messages: ${folder.messages}</li>`;
         });
         html += '</ul></li>';
-}
+
+    }
 
 
     });
