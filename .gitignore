@@ -1,3 +1,4 @@
 dist/
 *.xpi
 node_modules/
+.github/
